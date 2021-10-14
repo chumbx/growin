@@ -1,0 +1,8 @@
+.tableUsers {
+  width: 100%;
+  border: dotted 2px darkgrey;
+}
+
+.tableUsers thead tr th {
+  border: dotted 2px darkgrey;
+}

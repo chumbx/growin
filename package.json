@@ -1,0 +1,22 @@
+{
+  "name": "growin",
+  "version": "1.0.0",
+  "description": "Growin Test Application",
+  "main": "app.js",
+  "scripts": {
+    "app": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "sequelize": "^6.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chumbx/growin"
+  },
+  "author": "Márcio Silva"
+}

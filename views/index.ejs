@@ -1,0 +1,30 @@
+<%- include('_templates/header') %>
+<link type="text/css" rel="stylesheet" href="/css/styles.css" />
+<script src="js/scripts.js"></script>
+
+<input id="usersEmail" type="text" value="test@growin.pt" />
+<input id="usersGivenName" type="text" value="Márcio" />
+<input id="usersFamilyName" type="text" value="Silva" />
+<button onclick="usersInsert()">Add</button>
+
+<div>&nbsp;</div>
+<hr/>
+<div>&nbsp;</div>
+
+<table class="tableUsers">
+  <thead>
+    <tr>
+      <th>Email</th>
+      <th>Given Name</th>
+      <th>Family Name</th>
+      <th>Created</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody id="users">
+  </tbody>
+</table>
+
+
+
+<%- include('_templates/footer') %>
