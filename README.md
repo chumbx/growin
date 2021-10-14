@@ -45,5 +45,5 @@ Inside current directory:
 ## Running
 > node app.js
 or
-> npm run app
+> npm start
 
